@@ -1,0 +1,70 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.478743",
+   "Default View_TopLeft":"-88,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2060 -y 900 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2060 -y 1250 -defaultsOSRD
+preplace port port-id_done_led -pg 1 -lvl 7 -x 2060 -y 750 -defaultsOSRD
+preplace port port-id_resetn -pg 1 -lvl 0 -x 0 -y 950 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 210 -y 1280 -defaultsOSRD
+preplace inst csr_0 -pg 1 -lvl 3 -x 970 -y 800 -defaultsOSRD
+preplace inst SRAM1 -pg 1 -lvl 3 -x 970 -y 600 -defaultsOSRD
+preplace inst SRAM2 -pg 1 -lvl 3 -x 970 -y 1070 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -x 1640 -y 690 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 6 -x 1930 -y 680 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 4 -x 1320 -y 290 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 4 -x 1320 -y 670 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 4 -x 1320 -y 390 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 4 -x 1320 -y 960 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 4 -x 1320 -y 1190 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 4 -x 1320 -y 1060 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 2 -x 590 -y 790 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 5 -x 1640 -y 840 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 6 -x 1930 -y 830 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 590 -y 970 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 6 -x 1930 -y 450 -defaultsOSRD
+preplace inst top_memory_ctrlr_0 -pg 1 -lvl 5 -x 1640 -y 190 -defaultsOSRD
+preplace netloc SRAM1_bram_addr_a 1 3 1 1130 290n
+preplace netloc SRAM1_bram_clk_a 1 3 2 1120 130 NJ
+preplace netloc SRAM1_bram_en_a 1 3 3 1150 580 1440 390 NJ
+preplace netloc SRAM1_bram_we_a 1 3 1 1180J 660n
+preplace netloc SRAM1_bram_wrdata_a 1 3 1 1140 390n
+preplace netloc SRAM2_bram_addr_a 1 3 1 1200J 960n
+preplace netloc SRAM2_bram_clk_a 1 3 2 1160 230 NJ
+preplace netloc SRAM2_bram_en_a 1 3 3 1190J 600 1460 490 NJ
+preplace netloc SRAM2_bram_we_a 1 3 1 1160J 1130n
+preplace netloc SRAM2_bram_wrdata_a 1 3 1 1200J 1060n
+preplace netloc csr_0_start 1 3 3 1170J 590 1420 370 1770J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 20 1390 400 710 780 70 NJ 70 1420 10 1810J
+preplace netloc resetn_1 1 0 2 NJ 950 NJ
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 3 790 90 NJ 90 N
+preplace netloc top_memory_ctrlr_0_done 1 2 5 810 890 1180J 780 NJ 780 1780 750 NJ
+preplace netloc top_memory_ctrlr_0_s1_douta 1 5 1 1790 190n
+preplace netloc top_memory_ctrlr_0_s2_douta 1 5 1 1760 210n
+preplace netloc xlconcat_0_dout 1 3 4 1180J 610 NJ 610 1800J 270 2030
+preplace netloc xlconcat_1_dout 1 3 4 1140J 1120 NJ 1120 NJ 1120 2030
+preplace netloc xlconstant_0_dout 1 5 1 NJ 690
+preplace netloc xlconstant_1_dout 1 5 1 NJ 840
+preplace netloc xlslice_0_Dout 1 4 2 1470 430 N
+preplace netloc xlslice_1_Dout 1 4 2 1450 410 NJ
+preplace netloc xlslice_2_Dout 1 4 2 1430 400 1770J
+preplace netloc xlslice_3_Dout 1 4 2 1480 530 NJ
+preplace netloc xlslice_4_Dout 1 4 2 1490 510 NJ
+preplace netloc xlslice_5_Dout 1 4 2 1500 550 NJ
+preplace netloc processing_system7_0_DDR 1 1 6 420J 870 760J 900 NJ 900 NJ 900 NJ 900 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 6 NJ 1250 NJ 1250 NJ 1250 NJ 1250 NJ 1250 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 410 770n
+preplace netloc smartconnect_0_M00_AXI 1 2 1 N 770
+preplace netloc smartconnect_0_M01_AXI 1 2 1 800 580n
+preplace netloc smartconnect_0_M02_AXI 1 2 1 770 810n
+levelinfo -pg 1 0 210 590 970 1320 1640 1930 2060
+pagesize -pg 1 -db -bbox -sgen -90 0 2170 1400
+"
+}
+{
+   "da_clkrst_cnt":"6",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,253 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.799158",
+   "Default View_TopLeft":"3296,-582",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 11 -x 4330 -y -570 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 11 -x 4330 -y -500 -defaultsOSRD
+preplace port port-id_resetn -pg 1 -lvl 0 -x -230 -y -1060 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 3180 -y -540 -defaultsOSRD
+preplace inst SRAM_INPUT -pg 1 -lvl 2 -x 680 -y -390 -defaultsOSRD
+preplace inst SRAM_CONV_WEIGHT -pg 1 -lvl 2 -x 680 -y -110 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_0 -pg 1 -lvl 2 -x 680 -y 170 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -x 1510 -y -400 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 4 -x 1840 -y -400 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 5 -x 2160 -y -400 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 3 -x 1510 -y -180 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 4 -x 1840 -y -180 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 5 -x 2160 -y -180 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 3 -x 1510 -y 60 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 4 -x 1840 -y 60 -defaultsOSRD
+preplace inst xlslice_8 -pg 1 -lvl 5 -x 2160 -y 60 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_1 -pg 1 -lvl 2 -x 680 -y 450 -defaultsOSRD
+preplace inst xlslice_9 -pg 1 -lvl 3 -x 1510 -y 320 -defaultsOSRD
+preplace inst xlslice_10 -pg 1 -lvl 4 -x 1840 -y 310 -defaultsOSRD
+preplace inst xlslice_11 -pg 1 -lvl 5 -x 2160 -y 320 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_2 -pg 1 -lvl 2 -x 680 -y 730 -defaultsOSRD
+preplace inst xlslice_12 -pg 1 -lvl 3 -x 1510 -y 570 -defaultsOSRD
+preplace inst xlslice_13 -pg 1 -lvl 4 -x 1840 -y 570 -defaultsOSRD
+preplace inst xlslice_14 -pg 1 -lvl 5 -x 2160 -y 570 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_3 -pg 1 -lvl 2 -x 680 -y 1010 -defaultsOSRD
+preplace inst xlslice_15 -pg 1 -lvl 3 -x 1510 -y 820 -defaultsOSRD
+preplace inst xlslice_16 -pg 1 -lvl 4 -x 1840 -y 820 -defaultsOSRD
+preplace inst xlslice_17 -pg 1 -lvl 5 -x 2160 -y 820 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_4 -pg 1 -lvl 2 -x 680 -y 1290 -defaultsOSRD
+preplace inst xlslice_18 -pg 1 -lvl 3 -x 1510 -y 1080 -defaultsOSRD
+preplace inst xlslice_19 -pg 1 -lvl 4 -x 1840 -y 1080 -defaultsOSRD
+preplace inst xlslice_20 -pg 1 -lvl 5 -x 2160 -y 1080 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_5 -pg 1 -lvl 2 -x 680 -y 1570 -defaultsOSRD
+preplace inst xlslice_21 -pg 1 -lvl 3 -x 1510 -y 1290 -defaultsOSRD
+preplace inst xlslice_22 -pg 1 -lvl 4 -x 1840 -y 1290 -defaultsOSRD
+preplace inst xlslice_23 -pg 1 -lvl 5 -x 2160 -y 1290 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_6 -pg 1 -lvl 2 -x 680 -y 1850 -defaultsOSRD
+preplace inst xlslice_24 -pg 1 -lvl 3 -x 1510 -y 1550 -defaultsOSRD
+preplace inst xlslice_25 -pg 1 -lvl 4 -x 1840 -y 1550 -defaultsOSRD
+preplace inst xlslice_26 -pg 1 -lvl 5 -x 2160 -y 1550 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_7 -pg 1 -lvl 2 -x 680 -y 2130 -defaultsOSRD
+preplace inst xlslice_27 -pg 1 -lvl 3 -x 1510 -y 1740 -defaultsOSRD
+preplace inst xlslice_28 -pg 1 -lvl 4 -x 1840 -y 1740 -defaultsOSRD
+preplace inst xlslice_29 -pg 1 -lvl 5 -x 2160 -y 1740 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_8 -pg 1 -lvl 2 -x 680 -y 2410 -defaultsOSRD
+preplace inst xlslice_30 -pg 1 -lvl 3 -x 1510 -y 1990 -defaultsOSRD
+preplace inst xlslice_31 -pg 1 -lvl 4 -x 1840 -y 1990 -defaultsOSRD
+preplace inst xlslice_32 -pg 1 -lvl 5 -x 2160 -y 1990 -defaultsOSRD
+preplace inst SRAM_FCL_WEIGHT_9 -pg 1 -lvl 2 -x 680 -y 2700 -defaultsOSRD
+preplace inst xlslice_33 -pg 1 -lvl 3 -x 1510 -y 2230 -defaultsOSRD
+preplace inst xlslice_34 -pg 1 -lvl 4 -x 1840 -y 2230 -defaultsOSRD
+preplace inst xlslice_35 -pg 1 -lvl 5 -x 2160 -y 2230 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 7 -x 3180 -y 80 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 9 -x 3830 -y 80 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 9 -x 3830 -y 210 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 7 -x 3180 -y 210 -defaultsOSRD
+preplace inst xlconcat_2 -pg 1 -lvl 9 -x 3830 -y 330 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 7 -x 3180 -y 330 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 9 -x 3830 -y 450 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 7 -x 3180 -y 450 -defaultsOSRD
+preplace inst xlconcat_4 -pg 1 -lvl 9 -x 3830 -y 570 -defaultsOSRD
+preplace inst xlconstant_4 -pg 1 -lvl 7 -x 3180 -y 570 -defaultsOSRD
+preplace inst xlconcat_5 -pg 1 -lvl 9 -x 3830 -y 690 -defaultsOSRD
+preplace inst xlconstant_5 -pg 1 -lvl 7 -x 3180 -y 690 -defaultsOSRD
+preplace inst xlconcat_6 -pg 1 -lvl 9 -x 3830 -y 810 -defaultsOSRD
+preplace inst xlconstant_6 -pg 1 -lvl 7 -x 3180 -y 810 -defaultsOSRD
+preplace inst xlconcat_7 -pg 1 -lvl 9 -x 3830 -y 930 -defaultsOSRD
+preplace inst xlconstant_7 -pg 1 -lvl 7 -x 3180 -y 930 -defaultsOSRD
+preplace inst xlconcat_8 -pg 1 -lvl 9 -x 3830 -y 1050 -defaultsOSRD
+preplace inst xlconstant_8 -pg 1 -lvl 7 -x 3180 -y 1050 -defaultsOSRD
+preplace inst xlconcat_9 -pg 1 -lvl 9 -x 3830 -y 1170 -defaultsOSRD
+preplace inst xlconstant_9 -pg 1 -lvl 7 -x 3180 -y 1170 -defaultsOSRD
+preplace inst xlconcat_10 -pg 1 -lvl 9 -x 3830 -y 1290 -defaultsOSRD
+preplace inst xlconstant_10 -pg 1 -lvl 7 -x 3180 -y 1290 -defaultsOSRD
+preplace inst xlconcat_11 -pg 1 -lvl 9 -x 3830 -y 1410 -defaultsOSRD
+preplace inst xlconstant_11 -pg 1 -lvl 7 -x 3180 -y 1410 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 1 -x 110 -y 830 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 9 -x 3830 -y -530 -defaultsOSRD
+preplace inst csrr_0 -pg 1 -lvl 10 -x 4200 -y -270 -defaultsOSRD
+preplace inst top_0 -pg 1 -lvl 6 -x 2710 -y 740 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 8 -x 3490 -y -740 -defaultsOSRD
+preplace netloc SRAM_CONV_WEIGHT_bram_addr_a 1 2 1 860 -180n
+preplace netloc SRAM_CONV_WEIGHT_bram_clk_a 1 2 4 840J -280 NJ -280 NJ -280 2450
+preplace netloc SRAM_CONV_WEIGHT_bram_en_a 1 2 4 NJ -70 NJ -70 NJ -70 2410
+preplace netloc SRAM_CONV_WEIGHT_bram_we_a 1 2 2 850 -120 1620J
+preplace netloc SRAM_CONV_WEIGHT_bram_wrdata_a 1 2 3 N -110 NJ -110 1950J
+preplace netloc SRAM_FCL_WEIGHT_0_bram_addr_a 1 2 1 840 60n
+preplace netloc SRAM_FCL_WEIGHT_0_bram_clk_a 1 2 4 NJ 150 NJ 150 NJ 150 2390
+preplace netloc SRAM_FCL_WEIGHT_0_bram_en_a 1 2 4 NJ 210 NJ 210 NJ 210 2360
+preplace netloc SRAM_FCL_WEIGHT_0_bram_we_a 1 2 2 870J 140 1620
+preplace netloc SRAM_FCL_WEIGHT_0_bram_wrdata_a 1 2 3 850 120 NJ 120 1950J
+preplace netloc SRAM_FCL_WEIGHT_10_bram_addr_a 1 2 1 1290 2230n
+preplace netloc SRAM_FCL_WEIGHT_10_bram_we_a 1 2 2 1300J 2170 1730
+preplace netloc SRAM_FCL_WEIGHT_10_bram_wrdata_a 1 2 3 1280 2160 NJ 2160 2050J
+preplace netloc SRAM_FCL_WEIGHT_1_bram_addr_a 1 2 1 870 320n
+preplace netloc SRAM_FCL_WEIGHT_1_bram_clk_a 1 2 4 NJ 430 NJ 430 NJ 430 2340
+preplace netloc SRAM_FCL_WEIGHT_1_bram_en_a 1 2 4 NJ 490 NJ 490 NJ 490 2310
+preplace netloc SRAM_FCL_WEIGHT_1_bram_we_a 1 2 2 890 260 1620J
+preplace netloc SRAM_FCL_WEIGHT_1_bram_wrdata_a 1 2 3 900 380 NJ 380 1940J
+preplace netloc SRAM_FCL_WEIGHT_2_bram_addr_a 1 2 1 910 570n
+preplace netloc SRAM_FCL_WEIGHT_2_bram_clk_a 1 2 4 900J 480 NJ 480 NJ 480 2300
+preplace netloc SRAM_FCL_WEIGHT_2_bram_en_a 1 2 4 920J 500 NJ 500 NJ 500 2290
+preplace netloc SRAM_FCL_WEIGHT_2_bram_we_a 1 2 2 940 510 1610J
+preplace netloc SRAM_FCL_WEIGHT_2_bram_wrdata_a 1 2 3 930 630 NJ 630 1950J
+preplace netloc SRAM_FCL_WEIGHT_3_bram_addr_a 1 2 1 970 820n
+preplace netloc SRAM_FCL_WEIGHT_3_bram_clk_a 1 2 4 950 680 NJ 680 NJ 680 NJ
+preplace netloc SRAM_FCL_WEIGHT_3_bram_en_a 1 2 4 960 710 NJ 710 NJ 710 2530J
+preplace netloc SRAM_FCL_WEIGHT_3_bram_we_a 1 2 2 1000 760 1620J
+preplace netloc SRAM_FCL_WEIGHT_3_bram_wrdata_a 1 2 3 990 880 NJ 880 1950J
+preplace netloc SRAM_FCL_WEIGHT_4_bram_addr_a 1 2 1 1060 1080n
+preplace netloc SRAM_FCL_WEIGHT_4_bram_clk_a 1 2 4 980 700 NJ 700 NJ 700 2470J
+preplace netloc SRAM_FCL_WEIGHT_4_bram_en_a 1 2 4 1010 720 NJ 720 NJ 720 2370J
+preplace netloc SRAM_FCL_WEIGHT_4_bram_we_a 1 2 2 1070 1020 1640J
+preplace netloc SRAM_FCL_WEIGHT_4_bram_wrdata_a 1 2 3 1050J 1010 NJ 1010 1970
+preplace netloc SRAM_FCL_WEIGHT_5_bram_addr_a 1 2 1 1100 1290n
+preplace netloc SRAM_FCL_WEIGHT_5_bram_clk_a 1 2 4 1030 740 NJ 740 NJ 740 2300J
+preplace netloc SRAM_FCL_WEIGHT_5_bram_en_a 1 2 4 1040J 920 NJ 920 NJ 920 2260
+preplace netloc SRAM_FCL_WEIGHT_5_bram_we_a 1 2 2 1140J 1480 1690
+preplace netloc SRAM_FCL_WEIGHT_5_bram_wrdata_a 1 2 3 1120J 1460 NJ 1460 2010
+preplace netloc SRAM_FCL_WEIGHT_6_bram_addr_a 1 2 1 1150 1550n
+preplace netloc SRAM_FCL_WEIGHT_6_bram_clk_a 1 2 4 1080 960 NJ 960 NJ 960 2430J
+preplace netloc SRAM_FCL_WEIGHT_6_bram_en_a 1 2 4 1090 970 NJ 970 NJ 970 2400J
+preplace netloc SRAM_FCL_WEIGHT_6_bram_we_a 1 2 2 1170 1490 1670J
+preplace netloc SRAM_FCL_WEIGHT_6_bram_wrdata_a 1 2 3 1180J 1610 NJ 1610 2030
+preplace netloc SRAM_FCL_WEIGHT_7_bram_clk_a 1 2 4 1110 990 NJ 990 NJ 990 2360J
+preplace netloc SRAM_FCL_WEIGHT_7_bram_en_a 1 2 4 1130 980 NJ 980 NJ 980 2380J
+preplace netloc SRAM_FCL_WEIGHT_8_bram_addr_a 1 2 1 1210 1740n
+preplace netloc SRAM_FCL_WEIGHT_8_bram_clk_a 1 2 4 1160 1180 NJ 1180 NJ 1180 NJ
+preplace netloc SRAM_FCL_WEIGHT_8_bram_en_a 1 2 4 1190 1190 NJ 1190 NJ 1190 2290J
+preplace netloc SRAM_FCL_WEIGHT_8_bram_we_a 1 2 2 1230J 1680 1690
+preplace netloc SRAM_FCL_WEIGHT_8_bram_wrdata_a 1 2 3 1200 1670 NJ 1670 2010J
+preplace netloc SRAM_FCL_WEIGHT_9_bram_addr_a 1 2 1 1260 1990n
+preplace netloc SRAM_FCL_WEIGHT_9_bram_clk_a 1 2 4 1220 1200 NJ 1200 NJ 1200 2280J
+preplace netloc SRAM_FCL_WEIGHT_9_bram_en_a 1 2 4 1240 1210 NJ 1210 NJ 1210 2260J
+preplace netloc SRAM_FCL_WEIGHT_9_bram_we_a 1 2 2 1270 1930 1710J
+preplace netloc SRAM_FCL_WEIGHT_9_bram_wrdata_a 1 2 3 1250J 1920 NJ 1920 2030
+preplace netloc SRAM_INPUT_bram_addr_a 1 2 1 880 -430n
+preplace netloc SRAM_INPUT_bram_clk_a 1 2 4 830J -490 NJ -490 NJ -490 2500
+preplace netloc SRAM_INPUT_bram_en_a 1 2 4 860J -340 NJ -340 NJ -340 2470
+preplace netloc SRAM_INPUT_bram_we_a 1 2 2 840J -480 1610
+preplace netloc SRAM_INPUT_bram_wrdata_a 1 2 3 860J -460 NJ -460 1940
+preplace netloc csrr_0_start 1 5 6 2530 -150 N -150 N -150 N -150 N -150 4310
+preplace netloc resetn_1 1 0 9 N -1060 NJ -1060 NJ -1060 NJ -1060 NJ -1060 NJ -1060 NJ -1060 NJ -1060 3660
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 9 320 -250 NJ -250 NJ -250 NJ -250 2510 -250 2870J -240 NJ -240 N -240 4060
+preplace netloc top_0_conv_douta 1 6 3 2920 140 NJ 140 3660
+preplace netloc top_0_done 1 6 4 2860 -290 N -290 N -290 4070
+preplace netloc top_0_fcl_douta_0 1 6 3 2940 270 NJ 270 3660
+preplace netloc top_0_fcl_douta_1 1 6 3 2960 390 NJ 390 3640
+preplace netloc top_0_fcl_douta_2 1 6 3 2970 510 NJ 510 3620
+preplace netloc top_0_fcl_douta_3 1 6 3 2980 630 NJ 630 3620
+preplace netloc top_0_fcl_douta_4 1 6 3 2890J 870 3380 800 N
+preplace netloc top_0_fcl_douta_5 1 6 3 2990J 750 N 750 3590
+preplace netloc top_0_fcl_douta_6 1 6 3 2930J 0 N 0 3650
+preplace netloc top_0_fcl_douta_7 1 6 3 2950J 10 N 10 3630
+preplace netloc top_0_fcl_douta_8 1 6 3 2870J 150 N 150 3610
+preplace netloc top_0_fcl_douta_9 1 6 3 2920J 990 N 990 3590
+preplace netloc top_0_input_douta 1 6 3 2910 20 NJ 20 3660
+preplace netloc top_0_result_0 1 6 4 2880 -260 N -260 N -260 4080
+preplace netloc top_0_result_1 1 6 4 2900 -230 N -230 N -230 4090
+preplace netloc top_0_result_2 1 6 4 2890 -250 N -250 N -250 N
+preplace netloc xlconcat_0_dout 1 2 8 850J -470 NJ -470 NJ -470 2530J -430 NJ -430 NJ -430 3580 -410 4040
+preplace netloc xlconcat_10_dout 1 2 8 N 2430 NJ 2430 NJ 2430 NJ 2430 NJ 2430 NJ 2430 N 2430 4010
+preplace netloc xlconcat_11_dout 1 2 8 N 2720 NJ 2720 NJ 2720 NJ 2720 NJ 2720 NJ 2720 N 2720 4000
+preplace netloc xlconcat_1_dout 1 2 8 NJ -90 NJ -90 NJ -90 NJ -90 NJ -90 NJ -90 N -90 4030
+preplace netloc xlconcat_2_dout 1 2 8 830J -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 N -30 4020
+preplace netloc xlconcat_3_dout 1 2 8 860J -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 N -20 4010
+preplace netloc xlconcat_4_dout 1 2 8 880 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 N -10 4000
+preplace netloc xlconcat_5_dout 1 2 8 1020 930 NJ 930 NJ 930 2310J 1470 NJ 1470 NJ 1470 3640 1480 4090
+preplace netloc xlconcat_6_dout 1 2 8 1020 1470 NJ 1470 NJ 1470 2270J 1480 NJ 1480 NJ 1480 3590 1490 4070
+preplace netloc xlconcat_7_dout 1 2 8 850 1620 NJ 1620 NJ 1620 NJ 1620 NJ 1620 NJ 1620 N 1620 4040
+preplace netloc xlconcat_8_dout 1 2 8 N 1870 NJ 1870 NJ 1870 NJ 1870 NJ 1870 NJ 1870 N 1870 4030
+preplace netloc xlconcat_9_dout 1 2 8 N 2150 NJ 2150 NJ 2150 NJ 2150 NJ 2150 NJ 2150 N 2150 4020
+preplace netloc xlconstant_0_dout 1 7 2 N 80 3660
+preplace netloc xlconstant_10_dout 1 7 2 N 1290 3580
+preplace netloc xlconstant_11_dout 1 7 2 N 1410 3620
+preplace netloc xlconstant_1_dout 1 7 2 N 210 3660
+preplace netloc xlconstant_2_dout 1 7 2 N 330 3660
+preplace netloc xlconstant_3_dout 1 7 2 N 450 3640
+preplace netloc xlconstant_4_dout 1 7 2 N 570 3620
+preplace netloc xlconstant_5_dout 1 7 2 N 690 3580
+preplace netloc xlconstant_6_dout 1 7 2 N 810 3580
+preplace netloc xlconstant_7_dout 1 7 2 N 930 3580
+preplace netloc xlconstant_8_dout 1 7 2 N 1050 3600
+preplace netloc xlconstant_9_dout 1 7 2 N 1170 3600
+preplace netloc xlslice_0_Dout 1 3 3 1620J -480 NJ -480 2490
+preplace netloc xlslice_10_Dout 1 4 2 1940 260 2350J
+preplace netloc xlslice_11_Dout 1 5 1 2330 320n
+preplace netloc xlslice_12_Dout 1 3 3 1620J 510 NJ 510 2280
+preplace netloc xlslice_13_Dout 1 4 2 1940 630 2260J
+preplace netloc xlslice_14_Dout 1 5 1 2270 570n
+preplace netloc xlslice_15_Dout 1 3 3 1610 750 NJ 750 2530J
+preplace netloc xlslice_16_Dout 1 4 2 1940 730 2530J
+preplace netloc xlslice_17_Dout 1 5 1 2270 760n
+preplace netloc xlslice_18_Dout 1 3 3 1630 760 NJ 760 2260J
+preplace netloc xlslice_19_Dout 1 4 2 1960 880 2280J
+preplace netloc xlslice_1_Dout 1 4 2 1950 -460 2480J
+preplace netloc xlslice_20_Dout 1 5 1 2350 860n
+preplace netloc xlslice_21_Dout 1 3 3 1650 950 NJ 950 2530J
+preplace netloc xlslice_22_Dout 1 4 2 1980 940 2500J
+preplace netloc xlslice_23_Dout 1 5 1 2460 960n
+preplace netloc xlslice_24_Dout 1 3 3 1660 1000 NJ 1000 2330J
+preplace netloc xlslice_25_Dout 1 4 2 1990 1020 NJ
+preplace netloc xlslice_26_Dout 1 5 1 2490 1060n
+preplace netloc xlslice_27_Dout 1 3 3 1680 1140 NJ 1140 NJ
+preplace netloc xlslice_28_Dout 1 4 2 2000 1010 2260J
+preplace netloc xlslice_29_Dout 1 5 1 2510 1160n
+preplace netloc xlslice_2_Dout 1 5 1 2460 -400n
+preplace netloc xlslice_30_Dout 1 3 3 1700 1230 NJ 1230 2270J
+preplace netloc xlslice_31_Dout 1 4 2 2020 1220 NJ
+preplace netloc xlslice_32_Dout 1 5 1 2520 1260n
+preplace netloc xlslice_33_Dout 1 3 3 1720 1480 NJ 1480 2260J
+preplace netloc xlslice_34_Dout 1 4 2 2040 1350 2500J
+preplace netloc xlslice_35_Dout 1 5 1 2530 1360n
+preplace netloc xlslice_3_Dout 1 3 3 1610J -120 NJ -120 2430
+preplace netloc xlslice_4_Dout 1 4 2 1940 -100 2420J
+preplace netloc xlslice_5_Dout 1 5 1 2440 -180n
+preplace netloc xlslice_6_Dout 1 3 3 1610J 130 NJ 130 2370
+preplace netloc xlslice_7_Dout 1 4 2 1940 120 2400J
+preplace netloc xlslice_8_Dout 1 5 1 2380 60n
+preplace netloc xlslice_9_Dout 1 3 3 1610J 370 1950J 380 2320
+preplace netloc processing_system7_0_FCLK_CLK0 1 7 1 3380 -740n
+preplace netloc clk_wiz_0_clk_out1 1 0 10 -200 650 280 -260 N -260 N -260 N -260 2520 -280 2880 -280 N -280 3630 -270 4050
+preplace netloc processing_system7_0_DDR 1 7 4 N -590 3650 -430 4000 -570 N
+preplace netloc processing_system7_0_FIXED_IO 1 7 4 N -570 3610 -420 4040 -500 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 8 -210 -270 NJ -270 NJ -270 NJ -270 NJ -270 NJ -270 NJ -270 3370
+preplace netloc smartconnect_0_M00_AXI 1 1 9 250 -240 NJ -240 NJ -240 NJ -240 NJ -240 2850J -300 NJ -300 3580 -330 NJ
+preplace netloc smartconnect_0_M01_AXI 1 1 1 240 -410n
+preplace netloc smartconnect_0_M02_AXI 1 1 1 260 -130n
+preplace netloc smartconnect_0_M03_AXI 1 1 1 290 150n
+preplace netloc smartconnect_0_M04_AXI 1 1 1 300 430n
+preplace netloc smartconnect_0_M05_AXI 1 1 1 310 710n
+preplace netloc smartconnect_0_M06_AXI 1 1 1 310 830n
+preplace netloc smartconnect_0_M07_AXI 1 1 1 300 850n
+preplace netloc smartconnect_0_M08_AXI 1 1 1 290 870n
+preplace netloc smartconnect_0_M09_AXI 1 1 1 270 890n
+preplace netloc smartconnect_0_M10_AXI 1 1 1 260 910n
+preplace netloc smartconnect_0_M11_AXI 1 1 1 250 930n
+preplace netloc smartconnect_0_M12_AXI 1 1 1 240 950n
+levelinfo -pg 1 -230 110 680 1510 1840 2160 2710 3180 3490 3830 4200 4330
+pagesize -pg 1 -db -bbox -sgen -320 -1100 4440 2870
+"
+}
+{
+   "da_clkrst_cnt":"15",
+   "da_ps7_cnt":"1"
+}
